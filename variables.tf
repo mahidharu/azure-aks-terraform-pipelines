@@ -9,17 +9,17 @@ variable "location" {
 }
 
 variable "arm_subscription_id" {
-  description = "The Azure Subscription Id"
+  type = "string"
 }
 
 variable "arm_client_id" {
-  description = "The app Id"
+  type = "string"
 }
 
 variable "arm_client_secret" {
-  description = "The app password"
+  type = "string"
 }
 
 variable "arm_tenant_id" {
-  description = "The tenant id"
+  type = "string"
 }
