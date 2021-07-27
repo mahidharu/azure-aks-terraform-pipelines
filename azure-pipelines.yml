@@ -24,7 +24,7 @@ steps:
     TF_STATE_BLOB_FILE:           $(tf-state-sa-file)
     TF_STATE_BLOB_SAS_TOKEN:      $(tf-state-sas-token)
 
-- bash: terraform plan -var -out deployment.tfplan
+- bash: terraform plan -out deployment.tfplan
   displayName: Terraform Plan
   env:
     ARM_SUBSCRIPTION_ID:  $(tf_var_arm_subscription_id)
