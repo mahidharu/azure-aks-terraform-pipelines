@@ -8,7 +8,7 @@ variable "location" {
   default = "East US"
 }
 
-/*variable "arm_subscription_id" {
+variable "arm_subscription_id" {
   type = string
 }
 
@@ -22,4 +22,4 @@ variable "arm_client_secret" {
 
 variable "arm_tenant_id" {
   type = string
-}*/
+}
