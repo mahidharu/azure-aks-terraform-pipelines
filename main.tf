@@ -10,14 +10,10 @@ terraform {
 }
 
 provider "azurerm" {
-  /*subscription_id = var.arm_subscription_id
+  subscription_id = var.arm_subscription_id
   client_id       = var.arm_client_id
   client_secret   = var.arm_client_secret
-  tenant_id       = var.arm_tenant_id*/
-  subscription_id = "$(tf_var_arm_subscription_id)"
-  client_id       = "$(tf_var_arm_client_id)"
-  client_secret   = "$(tf_var_arm_client_secret)"
-  tenant_id       = "$(tf_var_arm_tenant_id)"
+  tenant_id       = var.arm_tenant_id
   # Configuration options
   features {}
 }
