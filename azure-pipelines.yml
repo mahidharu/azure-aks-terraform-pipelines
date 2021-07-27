@@ -25,7 +25,7 @@ steps:
     TF_STATE_BLOB_SAS_TOKEN:      $(tf-state-sas-token)
 
 - bash: terraform plan -out deployment.tfplan
-  displayName: Terraform Plan (ignores drift)
+  displayName: Terraform Plan
 
 - bash: terraform apply -auto-approve deployment.tfplan
   displayName: Terraform Apply
