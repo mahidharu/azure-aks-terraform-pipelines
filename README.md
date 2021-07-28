@@ -1,5 +1,5 @@
 # azure-aks-terraform-pipelines
-Sample project to create a Azure kubernetes clustor using TerraForm and Azure Pipelines
+Sample project to create a Azure kubernetes cluster using TerraForm and Azure Pipelines
 
 # Prerequisites:
 1) Install Azure CLI and Terraform tools
